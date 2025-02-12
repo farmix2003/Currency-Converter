@@ -70,7 +70,7 @@ const App = () => {
         <Amount amount={amount} setAmount={setAmount} />
         <CustomTitle
           classes={"text-2xl font-semibold mt-2 pl-4 text-white"}
-          title={`1 ${fromCurrency} = ${exchangeRate} ${toCurrency}`}
+          title={`${amount} ${fromCurrency} = ${exchangeRate} ${toCurrency}`}
         />
       </div>
     </div>
