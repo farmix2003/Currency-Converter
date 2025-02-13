@@ -71,6 +71,7 @@ const App = () => {
         <CustomTitle
           classes={"text-2xl font-semibold mt-2 pl-4 text-white"}
           title={`${amount} ${fromCurrency} = ${exchangeRate} ${toCurrency}`}
+          Hello
         />
       </div>
     </div>
